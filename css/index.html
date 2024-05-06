@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <a class="navbar-brand" href="#"><img src="./images/andrew-keymaster-KiXccYM2eQo-unsplash.jpg" alt=" " width="80px" style="border-radius: 15px;"></a>
+            <ul>
+             <li> <a href="#">HOME</a></li>  
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#resume">RESUME</a></li>
+            <li><a href="#work">WORK</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>I'm Olufowobi <span>Olalekan</span></h1>
+            <p>This is my official portfolio website to all
+                <br>Details and work experence in web development 
+            </p>
+            <br>
+            <a href="./pictures/lekan cv.docx">Download CV</a>
+        </div>
+    </div>
+
+   <main>
+    <div id="ABOUT">
+        <section>
+            <h1>My Profile:</h1>
+    
+            <br>
+            <dl>
+                <dt>NAME</dt>
+                <dd>Olufowobi Olalekan</dd>
+                <br>
+    
+                <dt>Academic background</dt>
+                    <dd>I am a studemt of covenant university I am currently on my six month SIWES training at gomycode .</dd>
+                    <br>
+    
+                <dt>History</dt>
+                <dd>  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, esse. </dd>
+            </dl>
+            <br>
+            
+    
+    
+            <p>click to see  <a href="https://covenantuniversity.edu.ng/" target="_blank">my school</a></p>
+        </section>
+    </div>
+
+    <div id="contact">
+        <form action="submit_contact_form.php" method="post">
+            <br>
+            <div>
+                <p><a href="https://www.linkedin.com/feed/">click here</a> to view my linkedin</p><br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <input type="submit" value="Submit">
+    </div>
+
+    <div id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <div class="resume-section">
+                <h3>Education</h3>
+                <ul>
+                    <li>Bachelor of Science in Computer Science - XYZ University, 2010-2014</li>
+                    <li>Master of Science in Information Technology - ABC University, 2015-2017</li>
+                </ul>
+            </div>
+            <div class="resume-section">
+                <h3>Work Experience</h3>
+                <ul>
+                    <li>Software Engineer at XYZ Tech, 2017-2020</li>
+                    <li>Senior Software Engineer at ABC Solutions, 2020-Present</li>
+                </ul>
+            </div>
+            <div class="resume-section">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Programming Languages: Java, Python, JavaScript</li>
+                    <li>Web Development: HTML, CSS, React</li>
+                    <li>Database Management: SQL, MongoDB</li>
+                    <li>Version Control: Git</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="work">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="work-experience">
+                <div class="work-item">
+                    <h3>Senior Software Engineer</h3>
+                    <p>ABC Company | January 2020 - Present</p>
+                    <p>Responsibilities:</p>
+                    <ul>
+                        <li>Lead a team of developers in designing and implementing software solutions.</li>
+                        <li>Develop and maintain scalable web applications using HTML, CSS, JavaScript, and React.</li>
+                        <li>Collaborate with cross-functional teams to define, design, and ship new features.</li>
+                    </ul>
+                </div>
+                <div class="work-item">
+                    <h3>Software Engineer</h3>
+                    <p>XYZ Tech | June 2017 - December 2019</p>
+                    <p>Responsibilities:</p>
+                    <ul>
+                        <li>Participated in the full software development lifecycle, from requirements gathering to deployment.</li>
+                        <li>Developed and maintained backend services using Java and Spring framework.</li>
+                        <li>Designed and implemented database schemas and queries using SQL and MongoDB.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </main>
+    
+   
+    
+</body>
+</html>
